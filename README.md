@@ -1,8 +1,8 @@
 # jQuery scrollr
 
-Scroll or drag through images
+Scroll or drag through an array of images. You should preload the images first.
 
-[demo/](http://robertbue.no/plugins/jquery.scrollr/demo.html)
+[demo/](http://robertbue.no/plugins/jquery.scrollr/)
 
 ## Usage
 
