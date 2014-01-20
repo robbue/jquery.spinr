@@ -1,10 +1,10 @@
 # jQuery scrollr
 
-Scroll or drag through an array of images. You should preload the images first.
+Scroll or drag through an array of images. Makes it possible to scroll through a "video" of images. Export frames from video, preload them and pass it to scrollr that makes it scrollable and dragable on desktop and touch-devices.
 
 It has a lot of dependencies (jQuery, GSAP, mousewheel and hammer.js plugin). Why? Because I use them in every project. Maybe I'll make a slightly more dependency-free version in the future.
 
-[demo/](http://robertbue.no/plugins/jquery.scrollr/)
+[Click here for demo](http://robertbue.no/plugins/jquery.scrollr/)
 
 ## Usage
 
@@ -30,7 +30,7 @@ It has a lot of dependencies (jQuery, GSAP, mousewheel and hammer.js plugin). Wh
 	<img src="" alt="" id="element">
 	```
 
-4. Call the plugin:
+4. Call the plugin (the images needs to be preloaded for smooth scrolling):
 
 	```javascript
 	$("#element").scrollr({
