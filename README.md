@@ -2,15 +2,20 @@
 
 Scroll or drag through an array of images. Makes it possible to scroll through a "video" of images. Export frames from video, preload them and pass it to scrollr that makes it scrollable and dragable on desktop and touch-devices.
 
-It has a lot of dependencies (jQuery, GSAP, mousewheel and hammer.js plugin). Why? Because I use them in every project. Maybe I'll make a slightly more dependency-free version in the future.
+It has a lot of dependencies (jQuery, TweenMax, mousewheel and hammer.js plugin). Why? Because they make your life much easier, and I use them in every project.
 
-**UPDATE:** Use the standalone version if you don't use GSAP or hammer.js, Mousewheel plugin is still needed because of normalizing the mousewheel across browsers.
+**UPDATE:** Use the standalone version if you don't use TweenMax or hammer.js, Mousewheel plugin is still needed because of normalizing the mousewheel across browsers.
 
 [Click here for demo](http://robertbue.no/plugins/jquery.scrollr/)
 
+## Browser Support Details
+
+All modern browsers including IE8.
+Standalone could have less support on touch devices.
+
 ## Usage
 
-1. Include (don't include GSAP or hammer.js if you use standalone version):
+1. Include (don't include TweenMax or hammer.js if you use standalone version):
 
 	```html
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -41,3 +46,11 @@ It has a lot of dependencies (jQuery, GSAP, mousewheel and hammer.js plugin). Wh
 	    distance: 5000
 	});
 	```
+
+## Public Methods
+	
+	Moves to selected frame: 
+	```javascript
+	$('#element').scrollr('goToFrame', frameNumber);
+	```
+
