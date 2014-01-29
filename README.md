@@ -10,8 +10,8 @@ It has a lot of dependencies (jQuery, TweenMax, mousewheel and hammer.js plugin)
 
 ## Browser Support Details
 
-All modern browsers including IE8.
-Standalone could have less support on touch devices.
+All modern browsers, including IE8 and touch devices.
+Standalone have less support on touch devices.
 
 ## Usage
 
@@ -50,6 +50,7 @@ Standalone could have less support on touch devices.
 ## Public Methods
 	
 	Moves to selected frame: 
+
 	```javascript
 	$('#element').scrollr('goToFrame', frameNumber);
 	```
