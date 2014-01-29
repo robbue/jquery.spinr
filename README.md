@@ -7,6 +7,7 @@ It has a lot of dependencies (jQuery, TweenMax, mousewheel and hammer.js plugin)
 **UPDATE:** Use the standalone version if you don't use TweenMax or hammer.js, Mousewheel plugin is still needed because of normalizing the mousewheel across browsers.
 
 [Click here for demo](http://robertbue.no/plugins/jquery.scrollr/)
+
 [Click here for demo (standalone)](http://robertbue.no/plugins/jquery.scrollr/standalone.html)
 
 ## Browser Support Details
