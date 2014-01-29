@@ -54,4 +54,3 @@ Moves to selected frame:
 	```javascript
 	$('#element').scrollr('goToFrame', frameNumber);
 	```
-
