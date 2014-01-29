@@ -51,9 +51,9 @@ Standalone have less support on touch devices.
 	
 Moves to selected frame: 
 
-	```javascript
+	```
 	$('#element').scrollr('goToFrame', frameNumber);
 	```
 
-	
+
 Made by Robert Bue (robertbue.no)
