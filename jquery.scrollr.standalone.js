@@ -86,7 +86,7 @@
 
             // Mousewheel
 			$target.on('mousewheel', function(event) {
-                console.log(event);
+
                 clearTimeout(base.timer);
                 
                 if( !base.scrolling ) {
