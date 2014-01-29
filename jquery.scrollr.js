@@ -21,10 +21,6 @@
 			distance: 5000
 		};
 
-    var privateMethod = function () {
-        console.log("private method");
-    };
-
     var Plugin = function ( element ) {
         this.options = $.extend( {}, defaults );
     };
