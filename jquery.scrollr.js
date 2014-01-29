@@ -62,6 +62,7 @@
 				//asd = event.gesture.deltaX - prevTouchFrame;
 				
 				deltaX = event.gesture.deltaX;
+                console.log(deltaX)
 
 				deltaX = Math.min(deltaX, 50);
 			    deltaX = Math.max(deltaX, -50);
