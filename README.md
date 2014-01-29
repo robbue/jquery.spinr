@@ -49,7 +49,7 @@ Standalone have less support on touch devices.
 
 ## Public Methods
 	
-	Moves to selected frame: 
+Moves to selected frame: 
 
 	```javascript
 	$('#element').scrollr('goToFrame', frameNumber);
