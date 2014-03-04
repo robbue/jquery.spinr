@@ -56,4 +56,10 @@ Moves to selected frame:
 	$('#element').scrollr('goToFrame', frameNumber);
 
 
-Made by Robert Bue (robertbue.no)
+## License
+
+This plugin is available under the [MIT license](http://opensource.org/licenses/mit-license.php).
+
+## Author
+
+Made by [Robert Bue](http://robertbue.no)
