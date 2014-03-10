@@ -1,5 +1,5 @@
 /*
- 	scrollr - v0.0.2
+ 	spinr - v0.0.1
  	jQuery plugin for scrolling or dragging through an array of images
 	by Robert Bue (@robert_bue)
 
@@ -11,7 +11,7 @@
  */
 ;(function ( $, window, document, undefined ) {
 
-    var pluginName = "scrollr",
+    var pluginName = "spinr",
         dataPlugin = "plugin_" + pluginName,
         
         // default options

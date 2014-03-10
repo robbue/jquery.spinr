@@ -38,7 +38,7 @@
 
 ;(function ( $, window, document, undefined ) {
 
-    var pluginName = "scrollr",
+    var pluginName = "spinr",
         dataPlugin = "plugin_" + pluginName,
         
         // default options
