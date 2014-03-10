@@ -1,5 +1,5 @@
 /*
- 	scrollr standalone - v0.0.1 (doesn't use TweenMax or hammer.js)
+ 	scrollr standalone - v0.0.2 (doesn't use TweenMax or hammer.js)
  	jQuery plugin for scrolling or dragging through an array of images
 	by Robert Bue (@robert_bue)
 

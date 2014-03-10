@@ -1,5 +1,5 @@
 /*
- 	scrollr - v0.0.1
+ 	scrollr - v0.0.2
  	jQuery plugin for scrolling or dragging through an array of images
 	by Robert Bue (@robert_bue)
 
