@@ -1,14 +1,14 @@
-# jQuery scrollr
+# jQuery spinr
 
-Scroll or drag through an array of images. Makes it possible to scroll through a "video" of images. Export frames from video, preload them and pass it to scrollr that makes it scrollable and dragable on desktop and touch-devices.
+Scroll or drag through an array of images. Makes it possible to scroll through a "video" of images. Export frames from video, preload them and pass it to spinr that makes it scrollable and dragable on desktop and touch-devices.
 
 It has a lot of dependencies (jQuery, TweenMax, mousewheel and hammer.js plugin). Why? Because they make your life much easier, and I use them in every project.
 
 **UPDATE:** Use the standalone version if you don't use TweenMax or hammer.js, Mousewheel plugin is still needed because of normalizing the mousewheel across browsers.
 
-[Click here for demo](http://robertbue.no/plugins/jquery.scrollr/)
+[Click here for demo](http://robertbue.no/plugins/jquery.spinr/)
 
-[Click here for demo (standalone)](http://robertbue.no/plugins/jquery.scrollr/standalone.html)
+[Click here for demo (standalone)](http://robertbue.no/plugins/jquery.spinr/standalone.html)
 
 ## Browser Support Details
 
@@ -30,7 +30,7 @@ Standalone have less support on touch devices.
 2. Include plugin's code:
 
 	```html
-	<script src="jquery.scrollr.js"></script>
+	<script src="jquery.spinr.js"></script>
 	```
 
 3. Create a img-tag:
@@ -42,7 +42,7 @@ Standalone have less support on touch devices.
 4. Call the plugin (the images needs to be preloaded for smooth scrolling):
 
 	```javascript
-	$("#element").scrollr({
+	$("#element").spinr({
 	    images: imagesArray,
 	    frames: 30,
 	    distance: 5000
@@ -53,7 +53,7 @@ Standalone have less support on touch devices.
 	
 Moves to selected frame: 
 
-	$('#element').scrollr('goToFrame', frameNumber);
+	$('#element').spinr('goToFrame', frameNumber);
 
 
 ## License
