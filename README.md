@@ -1,3 +1,5 @@
+**WARNING: This repo is archived for the obvious reasons and you really should not use it. It only here because of nostalgia**
+
 # jQuery spinr
 
 Scroll or drag through an array of images. Makes it possible to scroll through a "video" of images. Export frames from video, preload them and pass it to spinr that makes it scrollable and dragable on desktop and touch-devices.
